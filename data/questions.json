@@ -113,7 +113,7 @@
         "id": "B",
         "text": "しばらくROMして様子を見る",
         "effects": {
-          "listening": 7,
+          "listening": 8,
           "independence": 7
         }
       },
@@ -127,15 +127,16 @@
       },
       {
         "id": "D",
-        "text": "面白そうなら企画にも参加する",
+        "text": "面白ければコメントで盛り上げる",
         "effects": {
+          "talk": 7,
           "social": 8,
-          "streaming": 4
+          "approval": 4
         }
       },
       {
         "id": "E",
-        "text": "推しになりそうか観察する",
+        "text": "推しになりそうかじっくり観察する",
         "effects": {
           "attachment": 7,
           "listening": 5
@@ -237,46 +238,49 @@
   },
   {
     "id": "q06",
-    "text": "ギフト・課金について一番近いのは？",
+    "text": "ギフト・課金について、一番近いのは？",
     "type": "single",
     "choices": [
       {
         "id": "A",
-        "text": "基本的に課金しない",
+        "text": "基本的に課金しない・無料で楽しむ",
         "effects": {
           "spending": -8,
-          "independence": 6
+          "independence": 7
         }
       },
       {
         "id": "B",
-        "text": "気が向いたら少額",
+        "text": "気が向いた時だけ少額を投げる（ライト課金）",
         "effects": {
           "spending": 2
         }
       },
       {
         "id": "C",
-        "text": "推しにはしっかり投げる",
+        "text": "推しには毎回しっかり投げる（バッジ貢献）",
         "effects": {
           "spending": 8,
-          "attachment": 8
+          "attachment": 8,
+          "spoonLove": 4
         }
       },
       {
         "id": "D",
-        "text": "イベント時はかなり使う",
+        "text": "企画・イベントなど特別な時に投げる（不定期課金）",
         "effects": {
-          "spending": 9,
-          "ranking": 6
+          "spending": 6,
+          "ranking": 6,
+          "social": 3
         }
       },
       {
         "id": "E",
-        "text": "応援のためなら結構使う",
+        "text": "応援のためなら限界まで投げ切る（廃課金）",
         "effects": {
-          "spending": 10,
-          "attachment": 6,
+          "spending": 12,
+          "attachment": 8,
+          "ranking": 7,
           "spoonLove": 5
         }
       }
@@ -559,46 +563,52 @@
   },
   {
     "id": "q13",
-    "text": "バッジ制度について？",
+    "text": "バッジ制度について、一番近いのは？",
     "type": "single",
     "choices": [
       {
         "id": "A",
-        "text": "特に興味なし",
+        "text": "特に興味なし（共通）",
         "effects": {
           "independence": 5
         }
       },
       {
         "id": "B",
-        "text": "もらえたら嬉しい",
+        "text": "取れたら嬉しい（配信者）",
         "effects": {
-          "approval": 4,
-          "spoonLove": 3
+          "approval": 6,
+          "spoonLove": 4,
+          "streaming": 5
         }
       },
       {
         "id": "C",
-        "text": "集めるのが楽しい",
+        "text": "毎回狙いたい（ガチ配信者）",
         "effects": {
+          "ranking": 8,
+          "approval": 7,
           "spoonLove": 7,
-          "ranking": 4
+          "streaming": 9
         }
       },
       {
         "id": "D",
-        "text": "推しのバッジは欲しい",
+        "text": "リスナーとして色枠にいたい（リスナー目線）",
         "effects": {
-          "attachment": 8,
-          "spoonLove": 5
+          "attachment": 7,
+          "spoonLove": 6,
+          "ranking": 5
         }
       },
       {
         "id": "E",
-        "text": "コンプや称号まで狙いたい",
+        "text": "金枠しか勝たん（リスナー廃課金者）",
         "effects": {
-          "ranking": 7,
-          "spoonLove": 8
+          "attachment": 9,
+          "spoonLove": 8,
+          "ranking": 10,
+          "spending": 10
         }
       }
     ]

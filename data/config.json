@@ -15,7 +15,8 @@
   "share": {
     "enabled": true,
     "downloadImage": true,
-    "webShare": true
+    "webShare": true,
+    "mobileImageSave": "Web Share API with image file; fallback to PNG download"
   },
   "branding": {
     "useSpoonLogo": false,
