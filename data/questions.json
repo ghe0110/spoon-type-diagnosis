@@ -251,14 +251,14 @@
       },
       {
         "id": "B",
-        "text": "気が向いた時だけ少額を投げる（ライト課金）",
+        "text": "気が向いた時だけ少額を投げる",
         "effects": {
           "spending": 2
         }
       },
       {
         "id": "C",
-        "text": "推しには毎回しっかり投げる（バッジ貢献）",
+        "text": "推しには毎回しっかり投げる",
         "effects": {
           "spending": 8,
           "attachment": 8,
@@ -267,7 +267,7 @@
       },
       {
         "id": "D",
-        "text": "企画・イベントなど特別な時に投げる（不定期課金）",
+        "text": "企画・イベントなど特別な時に投げる",
         "effects": {
           "spending": 6,
           "ranking": 6,
@@ -276,7 +276,7 @@
       },
       {
         "id": "E",
-        "text": "応援のためなら限界まで投げ切る（廃課金）",
+        "text": "応援のためなら限界まで投げ切る",
         "effects": {
           "spending": 12,
           "attachment": 8,
@@ -568,14 +568,14 @@
     "choices": [
       {
         "id": "A",
-        "text": "特に興味なし（共通）",
+        "text": "特に興味なし",
         "effects": {
           "independence": 5
         }
       },
       {
         "id": "B",
-        "text": "取れたら嬉しい（配信者）",
+        "text": "取れたら嬉しい",
         "effects": {
           "approval": 6,
           "spoonLove": 4,
@@ -584,7 +584,7 @@
       },
       {
         "id": "C",
-        "text": "毎回狙いたい（ガチ配信者）",
+        "text": "毎回狙いたい",
         "effects": {
           "ranking": 8,
           "approval": 7,
@@ -594,7 +594,7 @@
       },
       {
         "id": "D",
-        "text": "リスナーとして色枠にいたい（リスナー目線）",
+        "text": "リスナーとして色枠にいたい",
         "effects": {
           "attachment": 7,
           "spoonLove": 6,
@@ -603,7 +603,7 @@
       },
       {
         "id": "E",
-        "text": "金枠しか勝たん（リスナー廃課金者）",
+        "text": "金枠しか勝たん",
         "effects": {
           "attachment": 9,
           "spoonLove": 8,
