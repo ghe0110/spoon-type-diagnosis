@@ -1,0 +1,113 @@
+{
+  "version": "1.0.0",
+  "shareTemplate": "{name}さんは「{type}」でした。SPOONでの生態を辛口診断！",
+  "hiddenStats": [
+    {
+      "id": "recognition_hunger",
+      "name": "推し認知欲",
+      "formula": [
+        "approval",
+        "attachment"
+      ]
+    },
+    {
+      "id": "comment_wait",
+      "name": "コメント拾われ待ち度",
+      "formula": [
+        "approval",
+        "talk"
+      ]
+    },
+    {
+      "id": "notification_slave",
+      "name": "通知奴隷度",
+      "formula": [
+        "spoonLove",
+        "attachment"
+      ]
+    },
+    {
+      "id": "frame_patrol",
+      "name": "枠巡回依存度",
+      "formula": [
+        "spoonLove",
+        "listening",
+        "relationship"
+      ]
+    },
+    {
+      "id": "ranking_watch",
+      "name": "ランキング監視率",
+      "formula": [
+        "ranking"
+      ]
+    },
+    {
+      "id": "wallet_release",
+      "name": "財布開放度",
+      "formula": [
+        "spending",
+        "attachment"
+      ]
+    },
+    {
+      "id": "distance_illusion",
+      "name": "距離感錯覚率",
+      "formula": [
+        "attachment",
+        "relationship",
+        "approval"
+      ]
+    },
+    {
+      "id": "rom_power",
+      "name": "透明人間指数",
+      "formula": [
+        "listening",
+        "independence",
+        "talk",
+        "social"
+      ]
+    },
+    {
+      "id": "spoon_dependence",
+      "name": "SPOON依存度",
+      "formula": [
+        "spoonLove",
+        "relationship"
+      ]
+    },
+    {
+      "id": "quit_quit",
+      "name": "辞める辞める詐欺度",
+      "formula": [
+        "spoonLove",
+        "relationship"
+      ]
+    },
+    {
+      "id": "old_talk",
+      "name": "昔語り発生率",
+      "formula": [
+        "spoonLove",
+        "relationship"
+      ]
+    },
+    {
+      "id": "event_hype",
+      "name": "便乗力",
+      "formula": [
+        "social",
+        "talk",
+        "ranking"
+      ]
+    }
+  ],
+  "resultLabels": {
+    "high": "かなり濃い",
+    "mediumHigh": "かなり強い",
+    "medium": "強め",
+    "low": "やや傾向あり",
+    "exclude": "候補外"
+  }
+}

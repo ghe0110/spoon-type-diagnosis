@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "q01",
+    "text": "SPOONを開く一番大きな理由は？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "好きな配信者に会いに行く",
+        "effects": {
+          "attachment": 8,
+          "listening": 4,
+          "spoonLove": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "誰かと雑談したい",
+        "effects": {
+          "talk": 8,
+          "social": 7,
+          "streaming": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "歌・音源・朗読を聴きたい",
+        "effects": {
+          "music": 8,
+          "listening": 8
+        }
+      },
+      {
+        "id": "D",
+        "text": "自分の配信や表現をしたい",
+        "effects": {
+          "streaming": 9,
+          "approval": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "なんとなく暇つぶし",
+        "effects": {
+          "independence": 6,
+          "listening": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "text": "好きな配信ジャンルは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "雑談・トーク",
+        "effects": {
+          "talk": 8,
+          "social": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "歌・弾き語り",
+        "effects": {
+          "music": 9,
+          "listening": 7
+        }
+      },
+      {
+        "id": "C",
+        "text": "朗読・音源・ASMR系",
+        "effects": {
+          "music": 7,
+          "listening": 9
+        }
+      },
+      {
+        "id": "D",
+        "text": "企画・イベント・コラボ",
+        "effects": {
+          "social": 9,
+          "spoonLove": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "日常・作業枠",
+        "effects": {
+          "listening": 7,
+          "independence": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "text": "気になる配信を見つけたら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "すぐコメントする",
+        "effects": {
+          "social": 8,
+          "talk": 7,
+          "approval": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "しばらくROMして様子を見る",
+        "effects": {
+          "listening": 7,
+          "independence": 7
+        }
+      },
+      {
+        "id": "C",
+        "text": "歌や声が好みなら長居する",
+        "effects": {
+          "music": 7,
+          "listening": 8
+        }
+      },
+      {
+        "id": "D",
+        "text": "面白そうなら企画にも参加する",
+        "effects": {
+          "social": 8,
+          "streaming": 4
+        }
+      },
+      {
+        "id": "E",
+        "text": "推しになりそうか観察する",
+        "effects": {
+          "attachment": 7,
+          "listening": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "text": "コメントを送ったのに拾われなかったら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "まあそんなこともある",
+        "effects": {
+          "independence": 9
+        }
+      },
+      {
+        "id": "B",
+        "text": "もう一回送ってみる",
+        "effects": {
+          "talk": 5,
+          "social": 5,
+          "approval": 5
+        }
+      },
+      {
+        "id": "C",
+        "text": "ちょっと寂しい",
+        "effects": {
+          "approval": 8,
+          "relationship": 5
+        }
+      },
+      {
+        "id": "D",
+        "text": "その枠への熱が少し下がる",
+        "effects": {
+          "attachment": 4,
+          "approval": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "次の話題を考える",
+        "effects": {
+          "talk": 8,
+          "social": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "text": "配信者に名前を呼ばれたときの気持ちは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "普通に嬉しい",
+        "effects": {
+          "approval": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "かなり嬉しい",
+        "effects": {
+          "approval": 8,
+          "relationship": 5
+        }
+      },
+      {
+        "id": "C",
+        "text": "一日幸せ",
+        "effects": {
+          "approval": 10,
+          "attachment": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "別に気にしない",
+        "effects": {
+          "independence": 8
+        }
+      },
+      {
+        "id": "E",
+        "text": "もっと呼んでほしい",
+        "effects": {
+          "approval": 10,
+          "social": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "text": "ギフト・課金について一番近いのは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "基本的に課金しない",
+        "effects": {
+          "spending": -8,
+          "independence": 6
+        }
+      },
+      {
+        "id": "B",
+        "text": "気が向いたら少額",
+        "effects": {
+          "spending": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "推しにはしっかり投げる",
+        "effects": {
+          "spending": 8,
+          "attachment": 8
+        }
+      },
+      {
+        "id": "D",
+        "text": "イベント時はかなり使う",
+        "effects": {
+          "spending": 9,
+          "ranking": 6
+        }
+      },
+      {
+        "id": "E",
+        "text": "応援のためなら結構使う",
+        "effects": {
+          "spending": 10,
+          "attachment": 6,
+          "spoonLove": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "text": "推しが他のリスナーと仲良くしていたら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "微笑ましい",
+        "effects": {
+          "independence": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "少し気になる",
+        "effects": {
+          "attachment": 5,
+          "relationship": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "かなり気になる",
+        "effects": {
+          "attachment": 9,
+          "relationship": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "自分ももっと絡みたくなる",
+        "effects": {
+          "approval": 7,
+          "social": 7
+        }
+      },
+      {
+        "id": "E",
+        "text": "別の推しを探す",
+        "effects": {
+          "independence": 6,
+          "attachment": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "text": "SPOON内の人間関係はどのくらい気になる？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ほぼ気にしない",
+        "effects": {
+          "independence": 9
+        }
+      },
+      {
+        "id": "B",
+        "text": "仲の良い人だけ気になる",
+        "effects": {
+          "relationship": 5
+        }
+      },
+      {
+        "id": "C",
+        "text": "誰と誰が仲良いか結構気になる",
+        "effects": {
+          "relationship": 9,
+          "social": 5
+        }
+      },
+      {
+        "id": "D",
+        "text": "人間関係込みで配信を楽しむ",
+        "effects": {
+          "relationship": 10,
+          "attachment": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "面白い展開があると追ってしまう",
+        "effects": {
+          "relationship": 9,
+          "listening": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "text": "企画への参加スタンスは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "積極的に参加する",
+        "effects": {
+          "social": 9,
+          "streaming": 6
+        }
+      },
+      {
+        "id": "B",
+        "text": "面白そうなら参加する",
+        "effects": {
+          "social": 8
+        }
+      },
+      {
+        "id": "C",
+        "text": "誘われたら参加する",
+        "effects": {
+          "social": 5,
+          "relationship": 5
+        }
+      },
+      {
+        "id": "D",
+        "text": "できれば参加したくない",
+        "effects": {
+          "independence": 8,
+          "social": -3
+        }
+      },
+      {
+        "id": "E",
+        "text": "リスナーとして見るのが好き",
+        "effects": {
+          "listening": 8,
+          "social": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "text": "自分が配信するとしたら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "歌いたい",
+        "effects": {
+          "streaming": 8,
+          "music": 9
+        }
+      },
+      {
+        "id": "B",
+        "text": "ひたすら雑談したい",
+        "effects": {
+          "streaming": 8,
+          "talk": 10
+        }
+      },
+      {
+        "id": "C",
+        "text": "企画で盛り上げたい",
+        "effects": {
+          "streaming": 8,
+          "social": 8
+        }
+      },
+      {
+        "id": "D",
+        "text": "誰かに見つけてもらいたい",
+        "effects": {
+          "streaming": 8,
+          "approval": 9
+        }
+      },
+      {
+        "id": "E",
+        "text": "配信はしないと思う",
+        "effects": {
+          "listening": 6,
+          "independence": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "text": "配信中に沈黙が続いたら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "気にしない",
+        "effects": {
+          "independence": 7,
+          "listening": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "誰かが話すまで待つ",
+        "effects": {
+          "listening": 7
+        }
+      },
+      {
+        "id": "C",
+        "text": "自分から話題を出す",
+        "effects": {
+          "talk": 10,
+          "social": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "コメントで場を動かす",
+        "effects": {
+          "talk": 8,
+          "social": 9
+        }
+      },
+      {
+        "id": "E",
+        "text": "そのまま落ちる",
+        "effects": {
+          "independence": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "text": "レーティングやランキングについて？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ほぼ気にしない",
+        "effects": {
+          "ranking": -5,
+          "independence": 8
+        }
+      },
+      {
+        "id": "B",
+        "text": "参考程度に見る",
+        "effects": {
+          "ranking": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "順位が上がると嬉しい",
+        "effects": {
+          "ranking": 8,
+          "approval": 5
+        }
+      },
+      {
+        "id": "D",
+        "text": "かなり気になる",
+        "effects": {
+          "ranking": 10,
+          "approval": 6
+        }
+      },
+      {
+        "id": "E",
+        "text": "イベント中は順位しか見えない",
+        "effects": {
+          "ranking": 12,
+          "spending": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "text": "バッジ制度について？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "特に興味なし",
+        "effects": {
+          "independence": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "もらえたら嬉しい",
+        "effects": {
+          "approval": 4,
+          "spoonLove": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "集めるのが楽しい",
+        "effects": {
+          "spoonLove": 7,
+          "ranking": 4
+        }
+      },
+      {
+        "id": "D",
+        "text": "推しのバッジは欲しい",
+        "effects": {
+          "attachment": 8,
+          "spoonLove": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "コンプや称号まで狙いたい",
+        "effects": {
+          "ranking": 7,
+          "spoonLove": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "text": "課金アイテムについて一番近い考えは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "なくても楽しめる",
+        "effects": {
+          "spending": -6,
+          "independence": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "あると便利・楽しい",
+        "effects": {
+          "spending": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "推しを応援する大事な手段",
+        "effects": {
+          "spending": 8,
+          "attachment": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "イベント攻略の武器",
+        "effects": {
+          "spending": 9,
+          "ranking": 8
+        }
+      },
+      {
+        "id": "E",
+        "text": "もっと種類や演出が欲しい",
+        "effects": {
+          "spending": 5,
+          "spoonLove": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "text": "SPOONユーザーの民度をどう感じる？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "かなり良い",
+        "effects": {
+          "social": 8,
+          "relationship": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "まあ普通",
+        "effects": {
+          "social": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "人による",
+        "effects": {
+          "independence": 5
+        }
+      },
+      {
+        "id": "D",
+        "text": "面倒な人も多い",
+        "effects": {
+          "relationship": 6,
+          "independence": 4
+        }
+      },
+      {
+        "id": "E",
+        "text": "人間関係が濃すぎる",
+        "effects": {
+          "relationship": 9,
+          "independence": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "text": "運営への満足度は？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "かなり満足",
+        "effects": {
+          "spoonLove": 8
+        }
+      },
+      {
+        "id": "B",
+        "text": "まあ満足",
+        "effects": {
+          "spoonLove": 5
+        }
+      },
+      {
+        "id": "C",
+        "text": "普通",
+        "effects": {}
+      },
+      {
+        "id": "D",
+        "text": "不満が多い",
+        "effects": {
+          "spoonLove": -4
+        }
+      },
+      {
+        "id": "E",
+        "text": "かなり不満。でも使う",
+        "effects": {
+          "spoonLove": -6,
+          "relationship": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "text": "SPOONの機能・サービス面は？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "かなり満足",
+        "effects": {
+          "spoonLove": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "概ね満足",
+        "effects": {
+          "spoonLove": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "普通",
+        "effects": {}
+      },
+      {
+        "id": "D",
+        "text": "改善してほしい",
+        "effects": {
+          "spoonLove": -3
+        }
+      },
+      {
+        "id": "E",
+        "text": "昔のほうが良かった",
+        "effects": {
+          "spoonLove": -5,
+          "independence": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "text": "SPOONを使う時間は？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "たまに",
+        "effects": {
+          "independence": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "毎日少し",
+        "effects": {
+          "spoonLove": 5,
+          "listening": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "毎日かなり",
+        "effects": {
+          "spoonLove": 8,
+          "listening": 6
+        }
+      },
+      {
+        "id": "D",
+        "text": "暇があれば開く",
+        "effects": {
+          "spoonLove": 10,
+          "listening": 7
+        }
+      },
+      {
+        "id": "E",
+        "text": "生活の一部",
+        "effects": {
+          "spoonLove": 12,
+          "relationship": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "text": "SPOON以外のSNSとの距離感は？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "SPOON以外も同じくらい使う",
+        "effects": {
+          "independence": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "SNSは広く浅く",
+        "effects": {
+          "independence": 6,
+          "social": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "SPOON中心",
+        "effects": {
+          "spoonLove": 8,
+          "relationship": 5
+        }
+      },
+      {
+        "id": "D",
+        "text": "ほぼSPOONにいる",
+        "effects": {
+          "spoonLove": 10,
+          "relationship": 7
+        }
+      },
+      {
+        "id": "E",
+        "text": "SPOONが一番の居場所",
+        "effects": {
+          "spoonLove": 12,
+          "relationship": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "text": "推しとの理想の距離感は？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "遠くから応援",
+        "effects": {
+          "independence": 8,
+          "attachment": 4
+        }
+      },
+      {
+        "id": "B",
+        "text": "たまにコメントできれば十分",
+        "effects": {
+          "attachment": 5
+        }
+      },
+      {
+        "id": "C",
+        "text": "常連として認識されたい",
+        "effects": {
+          "attachment": 8,
+          "approval": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "かなり仲良くなりたい",
+        "effects": {
+          "attachment": 10,
+          "relationship": 8
+        }
+      },
+      {
+        "id": "E",
+        "text": "できれば特別扱いされたい",
+        "effects": {
+          "attachment": 12,
+          "approval": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "q21",
+    "text": "新しい配信者を見つけたら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "とりあえず聞く",
+        "effects": {
+          "listening": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "声や音が良ければ通う",
+        "effects": {
+          "music": 8,
+          "listening": 7
+        }
+      },
+      {
+        "id": "C",
+        "text": "面白ければコメントする",
+        "effects": {
+          "talk": 6,
+          "social": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "気に入ったらすぐ推す",
+        "effects": {
+          "attachment": 8,
+          "approval": 4
+        }
+      },
+      {
+        "id": "E",
+        "text": "今の推しと比較する",
+        "effects": {
+          "attachment": 5,
+          "relationship": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "text": "SPOONが大きく変わったら？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "新しいなら試す",
+        "effects": {
+          "independence": 7
+        }
+      },
+      {
+        "id": "B",
+        "text": "良ければ受け入れる",
+        "effects": {
+          "spoonLove": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "昔との違いが気になる",
+        "effects": {
+          "spoonLove": 5,
+          "relationship": 4
+        }
+      },
+      {
+        "id": "D",
+        "text": "昔のほうが良かったと思う",
+        "effects": {
+          "spoonLove": -3,
+          "relationship": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "文句を言いながら使い続ける",
+        "effects": {
+          "spoonLove": -5,
+          "relationship": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "text": "SPOONで一番大切なのは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "面白さ",
+        "effects": {
+          "talk": 6,
+          "social": 5
+        }
+      },
+      {
+        "id": "B",
+        "text": "音・声の良さ",
+        "effects": {
+          "music": 10
+        }
+      },
+      {
+        "id": "C",
+        "text": "人との繋がり",
+        "effects": {
+          "relationship": 9,
+          "social": 7
+        }
+      },
+      {
+        "id": "D",
+        "text": "推しとの時間",
+        "effects": {
+          "attachment": 10,
+          "spoonLove": 7
+        }
+      },
+      {
+        "id": "E",
+        "text": "自分の居場所",
+        "effects": {
+          "spoonLove": 10,
+          "independence": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "text": "SPOONを辞めようと思ったことは？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ほぼない",
+        "effects": {
+          "spoonLove": 8
+        }
+      },
+      {
+        "id": "B",
+        "text": "一度くらいある",
+        "effects": {
+          "spoonLove": 4
+        }
+      },
+      {
+        "id": "C",
+        "text": "何度かある",
+        "effects": {
+          "spoonLove": -2
+        }
+      },
+      {
+        "id": "D",
+        "text": "何度もあるけど戻る",
+        "effects": {
+          "spoonLove": -4,
+          "attachment": 5
+        }
+      },
+      {
+        "id": "E",
+        "text": "辞めると言いつつ結局いる",
+        "effects": {
+          "spoonLove": -6,
+          "relationship": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "text": "これからのSPOONに期待する？",
+    "type": "single",
+    "choices": [
+      {
+        "id": "A",
+        "text": "かなり期待している",
+        "effects": {
+          "spoonLove": 10
+        }
+      },
+      {
+        "id": "B",
+        "text": "まあ期待している",
+        "effects": {
+          "spoonLove": 6
+        }
+      },
+      {
+        "id": "C",
+        "text": "様子見",
+        "effects": {
+          "spoonLove": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "あまり期待していない",
+        "effects": {
+          "spoonLove": -3
+        }
+      },
+      {
+        "id": "E",
+        "text": "文句はあるけど良くなってほしい",
+        "effects": {
+          "spoonLove": 4,
+          "relationship": 6
+        }
+      }
+    ]
+  }
+]

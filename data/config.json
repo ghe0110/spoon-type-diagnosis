@@ -1,0 +1,25 @@
+{
+  "appName": "スプナータイプ辛口診断",
+  "version": "1.0.0",
+  "questionCount": 25,
+  "choiceCount": 5,
+  "resultTypeCount": 20,
+  "statCount": 12,
+  "normalization": {
+    "min": 0,
+    "max": 100
+  },
+  "minimumTypeFit": 60,
+  "showTopTypes": 3,
+  "showHiddenStats": 5,
+  "share": {
+    "enabled": true,
+    "downloadImage": true,
+    "webShare": true
+  },
+  "branding": {
+    "useSpoonLogo": false,
+    "theme": "deep-orange-white",
+    "note": "SPOON公式ロゴ・商標を使用せず、濃いオレンジと白を基調としたオリジナルデザインを推奨"
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "version": "1.0.0",
+  "types": [
+    {
+      "id": "talking_asshole",
+      "name": "おしゃべりくそ野郎スプナー",
+      "catchphrase": "沈黙？知らない子ですね。",
+      "priority": 13,
+      "weights": {
+        "talk": 0.45,
+        "social": 0.25,
+        "streaming": 0.15,
+        "approval": 0.1,
+        "spoonLove": 0.05
+      },
+      "required": [
+        {
+          "stat": "talk",
+          "min": 75
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "talk",
+          "min": 90,
+          "bonus": 8
+        },
+        {
+          "stat": "social",
+          "min": 85,
+          "bonus": 4
+        }
+      ],
+      "result": {
+        "description": "あなたは人と話すこと自体がSPOONの大きな魅力。沈黙を見ると話題を探し始める、枠のエンジン役です。",
+        "hiddenStat": "コメント拾われ待ち度",
+        "advice": "喋りたい欲が強いぶん、聞く側に回るとさらに無双できます。",
+        "caution": "話を奪わず、相手にもスポットライトを渡しましょう。"
+      }
+    },
+    {
+      "id": "heavy_gachikoi",
+      "name": "重課金くそガチ恋スプナー",
+      "catchphrase": "推しは推し。だが財布はもう推しの所有物。",
+      "priority": 2,
+      "weights": {
+        "attachment": 0.3,
+        "spending": 0.3,
+        "approval": 0.2,
+        "spoonLove": 0.1,
+        "relationship": 0.1
+      },
+      "required": [
+        {
+          "stat": "attachment",
+          "min": 65
+        },
+        {
+          "stat": "spending",
+          "min": 60
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "attachment",
+          "min": 85,
+          "bonus": 5
+        },
+        {
+          "stat": "spending",
+          "min": 85,
+          "bonus": 5
+        },
+        {
+          "stat": "approval",
+          "min": 80,
+          "bonus": 3
+        }
+      ],
+      "result": {
+        "description": "推しへの愛情と行動力がかなり強いタイプ。応援の熱量が財布にも直結しやすいです。",
+        "hiddenStat": "財布開放度",
+        "advice": "無理なく長く応援できる金額を自分で決めると、推し活がもっと楽になります。",
+        "caution": "課金額を愛情の大きさに変換しないこと。"
+      }
+    },
+    {
+      "id": "approval_beggar",
+      "name": "ゴリゴリ承認欲求乞食スプナー",
+      "catchphrase": "コメントした。ギフトした。さあ、私を見ろ。",
+      "priority": 7,
+      "weights": {
+        "approval": 0.4,
+        "social": 0.2,
+        "talk": 0.15,
+        "relationship": 0.1,
+        "spoonLove": 0.15
+      },
+      "required": [
+        {
+          "stat": "approval",
+          "min": 70
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "approval",
+          "min": 90,
+          "bonus": 8
+        },
+        {
+          "stat": "talk",
+          "min": 80,
+          "bonus": 3
+        },
+        {
+          "stat": "social",
+          "min": 80,
+          "bonus": 3
+        }
+      ],
+      "result": {
+        "description": "反応・認知・名前を呼ばれることをかなり大切にするタイプ。人との繋がりがSPOONの燃料です。",
+        "hiddenStat": "コメント拾われ待ち度",
+        "advice": "反応を楽しみつつ、反応がなくても自分の価値は変わらないと覚えておきましょう。",
+        "caution": "配信者の反応を自己評価にしないこと。"
+      }
+    },
+    {
+      "id": "amateur_idol",
+      "name": "超勘違い素人アイドルスプナー",
+      "catchphrase": "まだ世間が俺／私を知らないだけ。",
+      "priority": 10,
+      "weights": {
+        "streaming": 0.3,
+        "approval": 0.3,
+        "social": 0.15,
+        "talk": 0.1,
+        "ranking": 0.1,
+        "spoonLove": 0.05
+      },
+      "required": [
+        {
+          "stat": "streaming",
+          "min": 70
+        },
+        {
+          "stat": "approval",
+          "min": 65
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "streaming",
+          "min": 90,
+          "bonus": 5
+        },
+        {
+          "stat": "approval",
+          "min": 85,
+          "bonus": 5
+        },
+        {
+          "stat": "ranking",
+          "min": 65,
+          "bonus": 3
+        }
+      ],
+      "result": {
+        "description": "自分を表現したい気持ちが強いタイプ。あなたの中ではSPOONは小さなステージです。",
+        "hiddenStat": "主役願望",
+        "advice": "見てもらうだけでなく、相手を楽しませる視点を足すと一気に強くなります。",
+        "caution": "数字が自分の価値ではありません。"
+      }
+    },
+    {
+      "id": "music_ear_freak",
+      "name": "音楽狂耳くそ詰イヤフォンスプナー",
+      "catchphrase": "声が良い？音質は？マイクは？リバーブは？",
+      "priority": 12,
+      "weights": {
+        "music": 0.55,
+        "listening": 0.15,
+        "independence": 0.1,
+        "talk": 0.05,
+        "social": 0.05,
+        "spoonLove": 0.1
+      },
+      "required": [
+        {
+          "stat": "music",
+          "min": 75
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "music",
+          "min": 90,
+          "bonus": 10
+        }
+      ],
+      "result": {
+        "description": "SPOONを音で楽しむ耳の解像度が高いタイプ。声・歌・音質・選曲の細部まで拾います。",
+        "hiddenStat": "音質警察度",
+        "advice": "評論家目線だけでなく、純粋に楽しむ時間も残しておきましょう。",
+        "caution": "音へのこだわりを他人に押しつけないこと。"
+      }
+    },
+    {
+      "id": "pon_de_ring_singer",
+      "name": "歌いすぎポンデリングシンガースプナー",
+      "catchphrase": "歌いたい。とにかく歌いたい。次の曲まだ？",
+      "priority": 11,
+      "weights": {
+        "music": 0.45,
+        "streaming": 0.25,
+        "talk": 0.1,
+        "social": 0.1,
+        "approval": 0.1
+      },
+      "required": [
+        {
+          "stat": "music",
+          "min": 65
+        },
+        {
+          "stat": "streaming",
+          "min": 55
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "streaming",
+          "min": 70,
+          "bonus": 5
+        },
+        {
+          "stat": "approval",
+          "min": 55,
+          "bonus": 3
+        }
+      ],
+      "result": {
+        "description": "歌うことそのものが好き。歌枠を聴くのも、自分で歌うのも好きな音楽人タイプです。",
+        "hiddenStat": "マイク占有率",
+        "advice": "歌唱力だけでなく楽しそうに歌うことを武器にしましょう。",
+        "caution": "リスナーの耳にも休日を。"
+      }
+    },
+    {
+      "id": "light_relationship",
+      "name": "ネット割切り軽薄仲スプナー",
+      "catchphrase": "昨日仲良し。今日は別枠。それでいいじゃん。",
+      "priority": 20,
+      "weights": {
+        "independence": 0.5,
+        "social": 0.15,
+        "listening": 0.15,
+        "spoonLove": 0.1,
+        "approval": 0.1
+      },
+      "required": [
+        {
+          "stat": "independence",
+          "min": 70
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "independence",
+          "min": 90,
+          "bonus": 10
+        }
+      ],
+      "result": {
+        "description": "ネット上の人間関係をかなり冷静に楽しめるタイプ。仲良くするけれど依存しません。",
+        "hiddenStat": "割切り能力",
+        "advice": "たまには少しだけ深く関わると、思わぬ良縁が見つかるかもしれません。",
+        "caution": "全員をただのネット上の人として片付けすぎないこと。"
+      }
+    },
+    {
+      "id": "crybaby",
+      "name": "自尊心欠如泣き虫スプナー",
+      "catchphrase": "大丈夫。嫌われてない。たぶん。……たぶん？",
+      "priority": 6,
+      "weights": {
+        "approval": 0.35,
+        "attachment": 0.25,
+        "relationship": 0.2,
+        "spoonLove": 0.1,
+        "social": 0.1
+      },
+      "required": [
+        {
+          "stat": "approval",
+          "min": 70
+        },
+        {
+          "stat": "attachment",
+          "min": 55
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "approval",
+          "min": 90,
+          "bonus": 7
+        },
+        {
+          "stat": "independence",
+          "min": 30,
+          "bonus": 7
+        }
+      ],
+      "result": {
+        "description": "周囲の反応に敏感で、ちょっとした温度差まで感じ取るタイプです。",
+        "hiddenStat": "反応監視度",
+        "advice": "他人の反応には、あなたが思うほど深い意味がないことも多いです。",
+        "caution": "SPOONを自己肯定感測定器にしないこと。"
+      }
+    },
+    {
+      "id": "people_pleaser",
+      "name": "八方美人デカ鼻くそスプナー",
+      "catchphrase": "誰とでも仲良くします。嫌われるの怖いので。",
+      "priority": 17,
+      "weights": {
+        "social": 0.4,
+        "relationship": 0.25,
+        "talk": 0.15,
+        "approval": 0.1,
+        "independence": 0.1
+      },
+      "required": [
+        {
+          "stat": "social",
+          "min": 70
+        },
+        {
+          "stat": "relationship",
+          "min": 55
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "social",
+          "min": 90,
+          "bonus": 7
+        }
+      ],
+      "result": {
+        "description": "誰とでも絡めるコミュニケーション型。場を明るくする一方、好かれようと頑張りすぎることも。",
+        "hiddenStat": "八方美人指数",
+        "advice": "全員に好かれなくても大丈夫。自分が心地いい人間関係を選びましょう。",
+        "caution": "無理な付き合いは減らしてOK。"
+      }
+    },
+    {
+      "id": "pink_brain",
+      "name": "変態染みパンピンク脳スプナー",
+      "catchphrase": "距離感？なにそれ美味しいの？",
+      "priority": 3,
+      "weights": {
+        "attachment": 0.3,
+        "relationship": 0.3,
+        "approval": 0.15,
+        "social": 0.1,
+        "spoonLove": 0.15
+      },
+      "required": [
+        {
+          "stat": "attachment",
+          "min": 55
+        },
+        {
+          "stat": "relationship",
+          "min": 50
+        },
+        {
+          "stat": "approval",
+          "min": 50
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "attachment",
+          "min": 85,
+          "bonus": 5
+        },
+        {
+          "stat": "relationship",
+          "min": 80,
+          "bonus": 5
+        }
+      ],
+      "result": {
+        "description": "声・距離感・ちょっとした言葉に想像力が爆発しやすいタイプ。",
+        "hiddenStat": "距離感錯覚率",
+        "advice": "妄想は自由。ただし現実との境界線はしっかり守りましょう。",
+        "caution": "優しさ＝特別扱いとは限りません。"
+      }
+    },
+    {
+      "id": "festival_hopper",
+      "name": "企画便乗お祭り騒ぎスプナー",
+      "catchphrase": "面白そう！とりあえず行く！",
+      "priority": 15,
+      "weights": {
+        "social": 0.35,
+        "streaming": 0.15,
+        "talk": 0.15,
+        "spoonLove": 0.15,
+        "ranking": 0.1,
+        "approval": 0.1
+      },
+      "required": [
+        {
+          "stat": "social",
+          "min": 65
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "social",
+          "min": 80,
+          "bonus": 5
+        },
+        {
+          "stat": "ranking",
+          "min": 70,
+          "bonus": 4
+        }
+      ],
+      "result": {
+        "description": "企画・イベント・コラボが大好き。面白そうならとりあえず乗る、枠の盛り上げ役です。",
+        "hiddenStat": "便乗力",
+        "advice": "盛り上げるだけでなく、たまには企画する側にも回ってみましょう。",
+        "caution": "全部参加すると普通に疲れます。"
+      }
+    },
+    {
+      "id": "comment_police",
+      "name": "コメント欄仕切り屋自治厨スプナー",
+      "catchphrase": "そのコメント、今必要ですか？",
+      "priority": 14,
+      "weights": {
+        "relationship": 0.4,
+        "social": 0.25,
+        "talk": 0.15,
+        "approval": 0.1,
+        "streaming": 0.1
+      },
+      "required": [
+        {
+          "stat": "social",
+          "min": 60
+        },
+        {
+          "stat": "relationship",
+          "min": 65
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "relationship",
+          "min": 85,
+          "bonus": 10
+        }
+      ],
+      "result": {
+        "description": "枠の雰囲気や秩序が気になるタイプ。困っている枠を見ると自治魂が起動します。",
+        "hiddenStat": "自治厨指数",
+        "advice": "見守ることも立派な選択。必要なときだけ一歩出るくらいで十分です。",
+        "caution": "枠の管理者は基本的に配信者です。"
+      }
+    },
+    {
+      "id": "fossil_veteran",
+      "name": "古参マウント化石スプナー",
+      "catchphrase": "昔のSPOONはな……。",
+      "priority": 9,
+      "weights": {
+        "spoonLove": 0.25,
+        "relationship": 0.2,
+        "ranking": 0.15,
+        "independence": 0.1,
+        "approval": 0.05
+      },
+      "required": [
+        {
+          "stat": "spoonLove",
+          "min": 60
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "spoonLove",
+          "min": 85,
+          "bonus": 6
+        }
+      ],
+      "result": {
+        "description": "SPOONの歴史への思い入れが強い古参タイプ。過去を知るからこそ変化にも敏感です。",
+        "hiddenStat": "昔語り発生率",
+        "advice": "経験は強み。新しい文化も一度受け入れてみましょう。",
+        "caution": "古参＝偉い、ではありません。"
+      }
+    },
+    {
+      "id": "ranking_ghoul",
+      "name": "数字しか見えないランキング亡者スプナー",
+      "catchphrase": "今何位？あと何ポイント？",
+      "priority": 4,
+      "weights": {
+        "ranking": 0.5,
+        "spending": 0.15,
+        "approval": 0.15,
+        "spoonLove": 0.1,
+        "attachment": 0.1
+      },
+      "required": [
+        {
+          "stat": "ranking",
+          "min": 75
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "ranking",
+          "min": 90,
+          "bonus": 10
+        }
+      ],
+      "result": {
+        "description": "ランキング・レーティング・イベント順位など数字への感度が非常に高いタイプ。",
+        "hiddenStat": "ランキング監視率",
+        "advice": "数字以外の『今日楽しかった』も一緒に残しましょう。",
+        "caution": "順位が下がっても配信の価値は下がりません。"
+      }
+    },
+    {
+      "id": "freebie_justice",
+      "name": "無課金正義マンスプナー",
+      "catchphrase": "課金しなくても楽しめる。それが俺のSPOON道。",
+      "priority": 18,
+      "weights": {
+        "independence": 0.25,
+        "listening": 0.2,
+        "social": 0.15,
+        "spoonLove": 0.15,
+        "ranking": 0.1,
+        "approval": 0.15
+      },
+      "required": [],
+      "bonuses": [
+        {
+          "stat": "independence",
+          "min": 80,
+          "bonus": 5
+        }
+      ],
+      "result": {
+        "description": "無課金・低課金でもSPOONを楽しめるタイプ。自分の予算と楽しみ方をコントロールできます。",
+        "hiddenStat": "財布防衛力",
+        "advice": "課金する人も違う楽しみ方をしているだけ。お互いのスタイルを尊重しましょう。",
+        "caution": "無課金を正義として他人に押しつけないこと。"
+      }
+    },
+    {
+      "id": "silent_rom",
+      "name": "潜伏型ROM専透明人間スプナー",
+      "catchphrase": "います。ずっといます。でも喋りません。",
+      "priority": 19,
+      "weights": {
+        "listening": 0.4,
+        "independence": 0.25,
+        "talk": -0.15,
+        "social": -0.1,
+        "approval": -0.1
+      },
+      "required": [
+        {
+          "stat": "listening",
+          "min": 65
+        },
+        {
+          "stat": "talk",
+          "min": 40
+        },
+        {
+          "stat": "social",
+          "min": 45
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "talk",
+          "min": 25,
+          "bonus": 7
+        },
+        {
+          "stat": "social",
+          "min": 25,
+          "bonus": 7
+        }
+      ],
+      "result": {
+        "description": "静かに配信を楽しむ潜伏型。コメントしなくても、実はかなり長く聴いていることがあります。",
+        "hiddenStat": "透明人間指数",
+        "advice": "たまには『こんばんは』の一言だけでも世界が変わります。",
+        "caution": "無理に交流する必要はありません。"
+      }
+    },
+    {
+      "id": "soap_opera",
+      "name": "人間関係ドロドロ昼ドラマスプナー",
+      "catchphrase": "え、その二人……いつから？",
+      "priority": 5,
+      "weights": {
+        "relationship": 0.5,
+        "attachment": 0.15,
+        "social": 0.15,
+        "approval": 0.1,
+        "spoonLove": 0.1
+      },
+      "required": [
+        {
+          "stat": "relationship",
+          "min": 75
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "relationship",
+          "min": 90,
+          "bonus": 10
+        }
+      ],
+      "result": {
+        "description": "SPOON内の人間関係への感度が高いタイプ。誰と誰が仲良いか、なんとなく把握しています。",
+        "hiddenStat": "人間関係監視度",
+        "advice": "他人の人間関係は『見ない』という選択もできます。",
+        "caution": "推測を事実に変換しないこと。"
+      }
+    },
+    {
+      "id": "oshi_hopper",
+      "name": "推し変高速回転ミーハースプナー",
+      "catchphrase": "今の推し？……3日前は違いました。",
+      "priority": 16,
+      "weights": {
+        "attachment": 0.3,
+        "social": 0.2,
+        "listening": 0.2,
+        "music": 0.1,
+        "approval": 0.1,
+        "independence": 0.1
+      },
+      "required": [
+        {
+          "stat": "attachment",
+          "min": 50
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "independence",
+          "min": 55,
+          "bonus": 4
+        },
+        {
+          "stat": "spoonLove",
+          "min": 65,
+          "bonus": 4
+        }
+      ],
+      "result": {
+        "description": "新しい魅力を見つけるのが速いタイプ。推しとの出会いが多い、SPOONのフットワーク王です。",
+        "hiddenStat": "推し変速度",
+        "advice": "広く浅く楽しむのも立派なスタイル。前の推しにも最低限の礼儀を。",
+        "caution": "前の推しを突然雑に扱わないこと。"
+      }
+    },
+    {
+      "id": "complaining_veteran",
+      "name": "運営に文句言いながら辞めない古参スプナー",
+      "catchphrase": "文句はある。でもSPOONは辞めない。",
+      "priority": 1,
+      "weights": {
+        "spoonLove": 0.35,
+        "relationship": 0.1,
+        "ranking": 0.1,
+        "attachment": 0.1
+      },
+      "required": [
+        {
+          "stat": "spoonLove",
+          "min": 75
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "spoonLove",
+          "min": 90,
+          "bonus": 8
+        }
+      ],
+      "result": {
+        "description": "SPOONへの思い入れが強いからこそ、不満も出やすいタイプ。文句を言いつつ、結局戻ってきます。",
+        "hiddenStat": "辞める辞める詐欺度",
+        "advice": "不満を具体的な改善案に変えると、古参ならではの強さになります。",
+        "caution": "『もう辞める』を連呼して自分まで疲れないこと。"
+      }
+    },
+    {
+      "id": "spoon_resident",
+      "name": "SPOON生活圏完全移住スプナー",
+      "catchphrase": "SPOONを使っているというより、SPOONに住んでいる。",
+      "priority": 8,
+      "weights": {
+        "spoonLove": 0.4,
+        "social": 0.15,
+        "relationship": 0.15,
+        "attachment": 0.1,
+        "listening": 0.1,
+        "talk": 0.05,
+        "streaming": 0.05
+      },
+      "required": [
+        {
+          "stat": "spoonLove",
+          "min": 80
+        }
+      ],
+      "bonuses": [
+        {
+          "stat": "spoonLove",
+          "min": 90,
+          "bonus": 10
+        },
+        {
+          "stat": "relationship",
+          "min": 80,
+          "bonus": 5
+        }
+      ],
+      "result": {
+        "description": "SPOONが単なるアプリではなく、居場所や生活の一部になっているタイプです。",
+        "hiddenStat": "SPOON依存度",
+        "advice": "SPOONを大切にしつつ、SPOON以外の世界も大切にしましょう。",
+        "caution": "オンラインの居場所でリアルの生活を圧迫しないこと。"
+      }
+    }
+  ]
+}

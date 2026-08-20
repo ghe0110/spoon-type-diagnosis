@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "stats": [
+    {
+      "id": "streaming",
+      "name": "配信欲",
+      "description": "自分で配信・表現したい欲求"
+    },
+    {
+      "id": "listening",
+      "name": "リスナー欲",
+      "description": "他人の配信を聴いて楽しみたい傾向"
+    },
+    {
+      "id": "music",
+      "name": "音楽性",
+      "description": "歌・音源・声・音質へのこだわり"
+    },
+    {
+      "id": "talk",
+      "name": "おしゃべり欲",
+      "description": "話す・コメントすることへの欲求"
+    },
+    {
+      "id": "social",
+      "name": "交流性",
+      "description": "他ユーザーと絡みたい傾向"
+    },
+    {
+      "id": "approval",
+      "name": "承認欲求",
+      "description": "認知・反応・評価を求める傾向"
+    },
+    {
+      "id": "attachment",
+      "name": "推し執着",
+      "description": "特定の配信者・推しへの愛着"
+    },
+    {
+      "id": "spending",
+      "name": "課金性向",
+      "description": "ギフト・課金をする傾向"
+    },
+    {
+      "id": "ranking",
+      "name": "数字執着",
+      "description": "ランキング・レーティング・バッジ等への関心"
+    },
+    {
+      "id": "relationship",
+      "name": "人間関係執着",
+      "description": "SPOON内の人間関係への関心"
+    },
+    {
+      "id": "independence",
+      "name": "割切り度",
+      "description": "ネット上の関係を冷静に楽しむ傾向"
+    },
+    {
+      "id": "spoonLove",
+      "name": "SPOON執着度",
+      "description": "SPOONそのものを居場所・生活の一部として捉える度合い"
+    }
+  ]
+}
