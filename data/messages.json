@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "shareTemplate": "{name}さんは「{type}」でした。SPOONでの生態を辛口診断！",
+  "shareTemplate": "{name}さんは「{type}」でした。\nSPOONでの生態を辛口診断！\n\n▼あなたも診断してみる\n{url}",
   "hiddenStats": [
     {
       "id": "recognition_hunger",
